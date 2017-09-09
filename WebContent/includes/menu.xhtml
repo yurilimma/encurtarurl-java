@@ -1,0 +1,24 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+		xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+		xmlns:h="http://xmlns.jcp.org/jsf/html"
+		xmlns:f="http://xmlns.jcp.org/jsf/html"
+		xmlns:p="http://primefaces.org/ui"
+		xmlns:c="http://xmlns.jcp.org/jsp/jstl/core">
+		
+		<h:form>
+			<p:menu style="width: auto;">	
+				<p:submenu label="Encurtar Url">
+					<p:menuitem value="Shorten URL" icon="ui-icon ui-icon-arrowreturnthick-1-e"
+					onclick="window.location.href='/encurtarurl/autenticacao/Shorten.jsf'"/>
+				</p:submenu>
+				<p:submenu label="Recuperar URL">
+					<p:menuitem value="Retrieve URL" icon="ui-icon ui-icon-arrowreturnthick-1-e"
+					onclick="window.location.href='/encurtarurl/autenticacao/Retrieve.jsf'"/>
+					
+				</p:submenu>
+				
+			</p:menu>
+		
+		</h:form>
+		
+</ui:composition>

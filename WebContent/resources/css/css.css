@@ -1,0 +1,29 @@
+@CHARSET "ISO-8859-1";
+
+.ui-widget, .ui-widget, .ui.widget{
+	font-size: 90% !important;
+}
+
+/**              RODAPE                     **/
+
+.copyright {
+	float: left !important;
+	
+}
+
+.fRodape{
+	color: #ff000 !important;
+	font-weight: bold !important; /* Obriga o primefaces a usar esse CSS*/
+}
+
+.relogio{
+	float: right !important;
+}
+
+.ui-clock{
+	background: nome !important;
+	border: none !important;
+	color: #0080c0 !important;
+}
+
+/**				FIM RODAPE 						**/

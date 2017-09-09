@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf14961494871020" configfile="/encurtarurl/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="Login.xhtml" x="122" y="178" id="pf15019502410410" referenceLink="//@navigationRule.0/@fromViewId|" path="autenticacao/Login.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="GerenciarPost.xhtml" x="122" y="562" id="pf15019502410422" referenceLink="//@navigationRule.0/@navigationCase.0/@toViewId|" path="post/GerenciarPost.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="Login.xhtml" x="338" y="946" id="pf15019669858413" referenceLink="//@navigationRule.1/@navigationCase.0/@toViewId|" outlinks="pf15019669858414" inlinks="pf15019875240230" path="/Login.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="admin.xhtml" x="122" y="946" id="pf15019669858415" referenceLink="//@navigationRule.1/@fromViewId|" outlinks="pf15019875240230" inlinks="pf15019669858414" path="/admin.xhtml"/>
+  <links id="pf15019669858414" target="pf15019669858415" source="pf15019669858413" outcome="admin"/>
+  <links id="pf15019875240230" target="pf15019669858413" source="pf15019669858415" outcome="Login"/>
+</pageflow:Pageflow>
