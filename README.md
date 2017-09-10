@@ -14,3 +14,5 @@ Projeto para encurtar Url em java. Arquitetura:
 * JDBC
 
 * Integração API Google Url Shortener
+
+* Maven
